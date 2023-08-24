@@ -1,0 +1,26 @@
+{
+  "env": {
+      "browser": true
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "plugins": [
+      "react"
+  ],
+  "rules": {
+      "import/prefer-default-export": "off",
+      "react/jsx-filename-extension": "off",
+      "comma-dangle": ["error", "never"],
+      "no-underscore-dangle": "off",
+      "class-methods-use-this": "off",
+      "jsx-a11y/label-has-associated-control": "off",
+      "eslint-disable-next-line": "off",
+      "react/jsx-props-no-spreading": "off"
+  }
+}
